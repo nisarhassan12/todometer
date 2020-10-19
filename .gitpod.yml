@@ -1,0 +1,12 @@
+image: 
+  file: .gitpod.Dockerfile
+tasks:
+  - init: | 
+      yarn install
+      yarn postinstall
+      yarn pre-electron-pack
+      yarn electron-pack
+    command: yarn electron-dev
+ports:
+  - port: 3000
+    onOpen: open-preview

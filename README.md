@@ -28,6 +28,16 @@ To show the Electron application window with your current build:
 $ yarn run electron-dev
 ```
 
+### Online one-click setup
+
+With a single click it will launch a workspace and automatically:
+
+- clone the `todometer` repo.
+- install the dependencies.
+- run `yarn electron:dev`
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/from-referrer/)
+
 To build a production-version:
 
 ```bash
